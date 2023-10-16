@@ -1,0 +1,208 @@
+
+.card:hover{
+transform: scale(1.025);
+box-shadow: 7px 7px 12px 2px rgb(203, 203, 203);
+}
+.scale:hover{
+    transform: scale(1.025);
+}
+.card,.titletext{
+    position: relative;
+    bottom: -200px;
+    
+}
+#col1,#col2,#col21,#col22{
+    position: relative;
+    bottom: -200px;
+    
+}
+.postion,.postion2,.postion3{
+    position: relative;
+    bottom: -150px;
+}
+.postion4{
+    position: relative;
+    bottom: -50px;
+}
+
+.imgten::before{
+    
+background-color:wheat ;
+}
+
+:root {
+    --primary: #4294E3;
+    --secondary: #8F12FD;
+    --light: #F0F6FF;
+    --dark: #262B47;
+}
+td:hover,.icon:hover{
+    transform: scale(1.1);
+   
+}
+.noscale:hover{
+    transform: scale(1);
+   
+}
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #845bf50d;
+    
+ 
+}
+
+body{
+  
+    height: 100%;
+  
+}
+button:hover,.bgbutton:hover,.conta{
+    
+    background-image: linear-gradient(210deg, var(--primary),var(--secondary));
+
+}
+.pagdeten
+{
+background-image: linear-gradient(51deg, var(--primary),var(--secondary));
+
+}
+.all{ 
+      height: 100vb;
+     background-image: linear-gradient(150deg, var(--primary),var(--secondary));
+     overflow: hidden; 
+     margin: 0px 6.5%
+}
+button,.bgbutton{
+    text-transform: capitalize;
+    background-image: linear-gradient(-30deg,var(--secondary),var(--primary));
+  
+
+}
+
+
+il,.navbar-item{
+    margin-left: 20px;
+    height: min-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+il:hover,.navbar-item:hover{
+ cursor: pointer;
+ 
+}
+
+.h1{
+    max-width: 90%;
+    margin:20%  5% 2% ;
+    position: relative;
+    top: -300px;
+    opacity: 0.2;
+
+}
+.p{
+    max-width: 100%;
+   margin: 1% 5%;
+   position: relative;
+    top: -200px;
+    opacity: 0.2;
+}
+ img{
+    width: 50%;
+    height: 50%;
+ }
+  #radio:hover{
+  
+ color: black;
+
+  }
+#hid{
+    width: 79px;
+    
+}
+#hidd{
+    margin: 0px;
+    margin-right: 4.5%;
+    padding: 0px;
+    outline: 0px;
+    border: 0px;
+}
+.maintra{
+    clip-path: polygon(50% 100%,20% -14%, 72% 0%);
+    height: 23px;
+    background-color: var(--primary);
+    visibility: hidden;
+    position: relative;
+  
+   
+    
+}
+.tra{
+   
+    clip-path:polygon(50% 40%,0% 0%, 100% 0%);
+    width: 50%;
+    background-color: white;
+    display: block;
+    display: none;
+    
+}
+
+#traa{
+   
+    clip-path:polygon(50% 100%,0% 0%, 100% 0%);
+    background-color: white;
+    display: block;
+    
+}
+#btn1{
+    position: relative;
+    left: -200px;
+    opacity: 0.1;
+}
+
+#btn2{
+    position: relative;
+    right: -200px;
+    opacity: 0.1;
+}
+
+.rad{
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: #ffffff;
+    border: 5px solid #5136e9e5 ;
+  
+   
+
+}
+.rad:active{
+     box-shadow: 1px 0px 7px 2px rgb(0, 0, 0);
+     border-right: 5px  solid rgba(0, 0, 0, 0.898) ;
+}
+.a{
+    background-image: linear-gradient(var(--primary),var(--secondary));
+    -webkit-background-clip: text;
+    color: transparent; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.clicktoup{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: linear-gradient(var(--primary),var(--secondary));
+    position:fixed;
+    right: 40px;
+    bottom: 15px;
+    z-index: 3;
+    display: none;
+    
+}
+tra{
+   width: 100px;height: 100px;
+    clip-path:polygon(50% 50% ,0% 0%,100% 0%) ;
+    background-color: var(--primary);
+}
